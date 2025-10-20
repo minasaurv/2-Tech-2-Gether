@@ -138,15 +138,15 @@ function Home() {
 
   const teamMembers = [
     {
-      name: 'Willy Vanderpool',
+      name: 'Wilhelmina Vanderpool',
       image: willyPortrait,
       role: 'President',
       pronouns: 'She/Her',
-      bio: "Hello there! I'm Willy Vanderpool, an 18-year-old Computer Information Science student at Ozarks Tech. I'm currently working in Ozarks Tech's Web Services department, and I'm also the president of Tech2Gether. My passion for programming started long before college, sparked by curiosity and a love for creating things from scratch. Over the years, I've gained experience with HTML, CSS, JavaScript, C#, Java, and Lua, and recently I've been diving deeper into modern frameworks such as React, TailwindCSS, and .NET MAUI. Outside of programming, some of my hobbies include drawing pixel art, playing videogames, and collecting Pokémon cards. I've also been learning German since around mid January 2025.",
+      bio: "Hello there! I'm Mina, an 18-year-old Computer Information Science student at Ozarks Technical Community College (Ozarks Tech). I'm currently working in Ozarks Tech's Web Services department, and I'm also the president of Ozarks Tech's tech club, Tech2Gether. My passion for programming started long before college, sparked by curiosity and a love for creating things from scratch. Over the years, I've gained experience with a variety of languages and tools, and recently I've been diving deeper into modern frameworks such as React and Tailwind. Outside of programming, some of my hobbies include drawing pixel art, playing videogames, and collecting Pokémon cards. I've also been learning German for almost a year.",
       buttons: [
         { icon: FaGithub, label: 'GitHub', url: 'https://github.com/ItsMeWillyV' },
-        { icon: FaLinkedin, label: 'LinkedIn', url: 'https://linkedin.com/in/willy-vanderpool' },
-        { icon: FaGlobe, label: 'Website', url: 'https://willy-v.com/' }
+        { icon: FaLinkedin, label: 'LinkedIn', url: 'https://linkedin.com/in/willyvanderpool' },
+        { icon: FaGlobe, label: 'Website', url: 'https://minasaur.com/' }
       ]
     },
     {
