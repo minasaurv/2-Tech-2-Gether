@@ -136,7 +136,7 @@
     },
             {
       "title": "Github Workshop",
-      "thumbnail": "",
+      "thumbnail": "img/thumbnails/git.png",
       "date": "February 18 2026 17:00:00 GMT-0600",
       "speaker": "Paul Bute",
       "description": "Learn how to interact with git via the command line! Whether you've never touched git or are a wizard, we will have something for you! We'll start out with the basics, push, pull etc. and move on to handling more advanced stuff like branching and merge conflicts. As long as time allows, we will cover some more niche commands like bisect and cherry pick that will be very useful once you get into the workforce.",
@@ -145,7 +145,7 @@
       "buttons": [
         {
           "text": "RSVP",
-          "link": "https://forms.office.com/Pages/ResponsePage.aspx?id=drq33vxyB0yDPxYotekhaNhghODwk3NEh9FML_kcXP9UMlNTMVBWT0wyNVlIU1ZJRkhIRUtDTTJKWS4u"
+          "link": "https://forms.office.com/r/UjfgzMR1qL"
         }
       ]
     }
