@@ -7,6 +7,8 @@ import eventThumbnail from '../assets/thumbnails/SRC.png'
 import event2Thumbnail from '../assets/thumbnails/JenCollins.jpg'
 import event3Thumbnail from '../assets/thumbnails/linkedIn.png'
 import event4Thumbnail from '../assets/thumbnails/picoCTF.png'
+import butterscotchThumbnail from '../assets/thumbnails/butterscotch.png'
+import tannerThumbnail from '../assets/thumbnails/tanner.png'
 import placeholderThumbnail from '../assets/thumbnails/placeholder.png'
 import diegoPortrait from '../assets/portraits/diego_haro.png'
 import lauraPortrait from '../assets/portraits/laura_kirkpatrick.png'
@@ -131,6 +133,12 @@ function Home() {
     }
     if (thumbnailPath.includes('picoCTF.png')) {
       return event4Thumbnail;
+    }
+    if (thumbnailPath.includes('butterscotch.png')) {
+      return butterscotchThumbnail;
+    }
+    if (thumbnailPath.includes('tanner.png')) {
+      return tannerThumbnail;
     }
     // Default to placeholder if thumbnail not found
     return placeholderThumbnail;

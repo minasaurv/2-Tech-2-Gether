@@ -133,21 +133,6 @@
           "link": "https://forms.office.com/Pages/ResponsePage.aspx?id=drq33vxyB0yDPxYotekhaNhghODwk3NEh9FML_kcXP9UMlNTMVBWT0wyNVlIU1ZJRkhIRUtDTTJKWS4u"
         }
       ]
-    },
-            {
-      "title": "Github Workshop",
-      "thumbnail": "",
-      "date": "February 18 2026 17:00:00 GMT-0600",
-      "speaker": "Paul Bute",
-      "description": "Learn how to interact with git via the command line! Whether you've never touched git or are a wizard, we will have something for you! We'll start out with the basics, push, pull etc. and move on to handling more advanced stuff like branching and merge conflicts. As long as time allows, we will cover some more niche commands like bisect and cherry pick that will be very useful once you get into the workforce.",
-      "location": "PMC 232",
-      "schedule": "5:00 PM - Github Workshop \u003Cbr\u003E7:15 PM - Meeting Ends",
-      "buttons": [
-        {
-          "text": "RSVP",
-          "link": "https://forms.office.com/Pages/ResponsePage.aspx?id=drq33vxyB0yDPxYotekhaNhghODwk3NEh9FML_kcXP9UMlNTMVBWT0wyNVlIU1ZJRkhIRUtDTTJKWS4u"
-        }
-      ]
     }
   ]
 }
