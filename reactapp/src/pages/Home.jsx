@@ -9,6 +9,7 @@ import event3Thumbnail from '../assets/thumbnails/linkedIn.png'
 import event4Thumbnail from '../assets/thumbnails/picoCTF.png'
 import butterscotchThumbnail from '../assets/thumbnails/butterscotch.png'
 import tannerThumbnail from '../assets/thumbnails/tanner.png'
+import gitThumbnail from '../assets/thumbnails/git.png'
 import placeholderThumbnail from '../assets/thumbnails/placeholder.png'
 import diegoPortrait from '../assets/portraits/diego_haro.png'
 import lauraPortrait from '../assets/portraits/laura_kirkpatrick.png'
@@ -140,6 +141,9 @@ function Home() {
     if (thumbnailPath.includes('tanner.png')) {
       return tannerThumbnail;
     }
+    if (thumbnailPath.includes('git.png')) {
+      return gitThumbnail;
+    }
     // Default to placeholder if thumbnail not found
     return placeholderThumbnail;
   };
@@ -152,8 +156,8 @@ function Home() {
       pronouns: 'She/Her',
       bio: "Hello there! I'm Mina, an 18-year-old Computer Information Science student at Ozarks Technical Community College (Ozarks Tech). I'm currently working in Ozarks Tech's Web Services department, and I'm also the president of Ozarks Tech's tech club, Tech2Gether. My passion for programming started long before college, sparked by curiosity and a love for creating things from scratch. Over the years, I've gained experience with a variety of languages and tools, and recently I've been diving deeper into modern frameworks such as React and Tailwind. Outside of programming, some of my hobbies include drawing pixel art, playing videogames, and collecting Pokémon cards. I've also been learning German for almost a year.",
       buttons: [
-        { icon: FaGithub, label: 'GitHub', url: 'https://github.com/ItsMeWillyV' },
-        { icon: FaLinkedin, label: 'LinkedIn', url: 'https://linkedin.com/in/willyvanderpool' },
+        { icon: FaGithub, label: 'GitHub', url: 'https://github.com/MinasaurV' },
+        { icon: FaLinkedin, label: 'LinkedIn', url: 'https://www.linkedin.com/in/minasaur/' },
         { icon: FaGlobe, label: 'Website', url: 'https://minasaur.com/' }
       ]
     },
@@ -449,26 +453,12 @@ function Home() {
         </div>
 
         {/* Features Grid */}
-        <div className="grid md:grid-cols-3 gap-10 mb-20">
-          <Card
-            icon={FaFlag}
-            iconColor="text-yaml-yellow"
-            title="Ozzy's Cyber Heist"
-            description="Join us for our first annual Capture the Flag at Ozarks Tech! Registration is opening soon - join our mailing list to be notified when it opens."
-            borderColor="border-t-yaml-yellow"
-            button={{
-              text: "Join Mailing List",
-              icon: FaInfoCircle,
-              className: "bg-yaml-yellow text-binary-blue hover:bg-analog-aquamarine hover:text-white",
-              external: true,
-              href: "https://forms.cloud.microsoft/r/JkXsy6fDrQ?origin=lprLink"
-            }}
-          />
+        <div className="grid md:grid-cols-2 gap-10 mb-20">
           <Card
             icon={FaCode}
             iconColor="text-analog-aquamarine"
             title="Hack2Gether"
-            description="Coming in the Spring Semester—stay tuned for more info!"
+            description="Coming in April - stay tuned for more info!"
             borderColor="border-t-analog-aquamarine"
             button={{
               text: "View Events",
@@ -482,7 +472,7 @@ function Home() {
             icon={FaGlobe}
             iconColor="text-binary-blue"
             title="Join the Website Team today!"
-            description="Like what you see and want to contribute? Talk to Willy, Paul, and Laura on Teams to find out how to join the Website Team!"
+            description="Like what you see and want to contribute? Talk to Mina, Paul, and Laura on Teams to find out how to join the Website Team!"
             borderColor="border-t-binary-blue"
             button={{
               text: "Contact Us",

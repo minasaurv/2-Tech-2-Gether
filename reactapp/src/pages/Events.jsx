@@ -44,32 +44,6 @@ function Events() {
           {/* Event Cards Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16 max-w-6xl mx-auto">
 
-            {/* Ozzy's Cyber Heist CTF Event */}
-            <Card
-              id="ctf"
-              icon={FaFlag}
-              iconColor="text-yaml-yellow"
-              title="Ozzy's Cyber Heist"
-              subtitle="Capture the Flag Competition"
-              subtitleBg="bg-yaml-yellow"
-              subtitleText="text-binary-blue"
-              borderColor="border-t-yaml-yellow"
-              details={[
-                { icon: FaCalendarAlt, text: "April 2026", color: "text-yaml-yellow" },
-                { icon: FaClock, text: "Time TBD", color: "text-yaml-yellow" },
-                { icon: FaMapMarkerAlt, text: "Springfield Campus - Room TBD", color: "text-yaml-yellow" }
-              ]}
-              description="Join us for our first annual Capture the Flag at Ozarks Tech! Test your cybersecurity skills in this exciting competition. Registration is opening soon - join our mailing list to be notified when it opens."
-              additionalInfo={<><strong>Registration:</strong> TBA, Join our mailing list to be notified. </>}
-              button={{
-                text: "Join Mailing List",
-                icon: FaInfoCircle,
-                className: "bg-yaml-yellow text-binary-blue hover:bg-analog-aquamarine hover:text-white",
-                external: true,
-                href: "https://forms.cloud.microsoft/r/JkXsy6fDrQ?origin=lprLink"
-              }}
-            />
-
             {/* Hack2Gether Hackathon */}
             <Card
               id="hackathon"
@@ -81,12 +55,12 @@ function Events() {
               subtitleText="text-white"
               borderColor="border-t-analog-aquamarine"
               details={[
-                { icon: FaCalendarAlt, text: "Spring Semester 2025", color: "text-analog-aquamarine" },
+                { icon: FaCalendarAlt, text: "April 2026", color: "text-analog-aquamarine" },
                 { icon: FaClock, text: "Time TBD", color: "text-analog-aquamarine" },
-                { icon: FaMapMarkerAlt, text: "Springfield Campus - Room TBD", color: "text-analog-aquamarine" }
+                { icon: FaMapMarkerAlt, text: "Plaster Manufacturing Center, Ozarks Tech Springfield Campus", color: "text-analog-aquamarine" }
               ]}
-              description="Our signature hackathon event is coming in the Spring Semester! Join teams, build innovative projects, and compete for prizes. Perfect for students of all skill levels."
-              additionalInfo={<><strong>Status:</strong> Planning Phase - More details coming soon!</>}
+              description="Our signature hackathon event is coming in April! Join teams, build innovative projects, and compete for prizes. Perfect for students of all skill levels!"
+              additionalInfo={<><strong>Status:</strong> In the works - More details coming soon!</>}
               button={{
                 text: "Stay Tuned for Updates",
                 icon: FaRocket,
@@ -107,7 +81,7 @@ function Events() {
             </h2>
             <div className="bg-white rounded-2xl p-8 shadow-lg transition-all duration-300 hover:scale-105">
               <p className="text-xl text-gray-700 leading-relaxed mb-3 mt-3">
-                We're looking for sponsors for our upcoming events! On November 14th we're hosting our first annual Capture the Flag at Ozarks Tech! All event sponsorships will contribute to running the event and prizes for winning competitors. To become an event sponsor, submit an inquiry below.
+                We're looking for sponsors for our upcoming events! In April, we're hosting our first annual Hackathon at Ozarks Tech! All event sponsorships will contribute to running the event and prizes for winning competitors. More information is available on our <a href="/sponsors" className="text-analog-aquamarine font-semibold hover:underline">Sponsors</a> page.
               </p>
             </div>
           </div>

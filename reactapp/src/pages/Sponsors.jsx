@@ -115,7 +115,7 @@ function Sponsors() {
           </div>
         </div>
 
-        {/* Future Possibilities Section */}
+        {/* Event Sponsor Section */}
         <div className="bg-gradient-to-br from-blue-100 to-cyan-100 py-16 px-8 rounded-3xl shadow-inner mb-10">
           <div className="text-center max-w-4xl mx-auto">
             <div className="flex justify-center mb-6">
@@ -126,7 +126,7 @@ function Sponsors() {
             </h2>
             <div className="bg-white rounded-2xl p-8 shadow-lg transition-all duration-300 hover:scale-105">
               <p className="text-xl text-gray-700 leading-relaxed mb-3 mt-3">
-                We're looking for sponsors for our upcoming events! On November 14th we're hosting our first annual Capture the Flag at Ozarks Tech! All event sponsorships will contribute to running the event and prizes for winning competitors. To become an event sponsor, submit an inquiry below.
+                We're looking for sponsors for our upcoming events! In April, we're hosting our first annual Hackathon at Ozarks Tech! All event sponsorships will contribute to running the event and prizes for winning competitors. Submit an inquiry below!
               </p>
             </div>
           </div>
